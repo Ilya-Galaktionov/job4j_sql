@@ -1,0 +1,6 @@
+SELECT *
+FROM order_items
+ORDER BY
+    order_id,
+    unit_price DESC,
+    id;
